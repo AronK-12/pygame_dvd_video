@@ -1,3 +1,5 @@
 .venv/
 build/
 dvd_video.spec
+dist.rar
+dist/
