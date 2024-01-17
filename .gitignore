@@ -1,5 +1,9 @@
 .venv/
 build/
 dvd_video.spec
+<<<<<<< HEAD
 dist.rar
 dist/
+=======
+dist.rar
+>>>>>>> 2f4f7817d4f2368bebb7cc42a6427b69773709a3
