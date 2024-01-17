@@ -10,8 +10,6 @@ def main():
     clock = pygame.time.Clock()
     running = True
 
-    deltaTime = 0
-
     dvd_logos:list = []
 
     dir_path:str = "assets"
@@ -20,8 +18,8 @@ def main():
 
     current_logo = dvd_logos[0]
 
-    dvd_rect = current_logo.get_rect()
-    dvd_speed = [5, 5]
+    dvd_rect:pygame.Rect = current_logo.get_rect()
+    dvd_speed = [4, 4]
 
     def change_logo(l):
         logo = l
@@ -57,7 +55,7 @@ def main():
 
         pygame.display.flip()
 
-        deltaTime = clock.tick(60) / 1000
+        clock.tick(60)
 
     pygame.quit()
 
